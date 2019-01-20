@@ -3,6 +3,7 @@
  * Things learnt in conditionals.
  * 1.when expression with and without arguments(you can use it with boolean case).
  * 2.when analogous to switch statement.
+ * 3.if is an expression.
  */
 fun main(args:Array<String>){
     println("${evaluateSomething()}");
@@ -15,7 +16,7 @@ fun main(args:Array<String>){
 
 fun evaluateSomething(value:Int=0):String = when(value){
     0->"value is zero"
-    is Int-> "value is int"
+    12-> "value is 12"
     else -> "value is undefined"
 }
 
