@@ -13,6 +13,8 @@
  * 6.Repeat operator in kotlin.
  * 7.Changing the order of default args in kotlin.
  * 8.@JvmOverloads() usage to utilize default args in kotlin
+ * 9.Top level functions in kotlin, are called in Java as though they are static
+ * functions.
  **/
 
 
