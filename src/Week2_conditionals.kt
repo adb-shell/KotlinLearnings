@@ -4,6 +4,7 @@
  * 1.when expression with and without arguments(you can use it with boolean case).
  * 2.when analogous to switch statement.
  * 3.if is an expression.
+ * 4. no ternary operator in kotlin.
  */
 fun main(args:Array<String>){
     println("${evaluateSomething()}");
