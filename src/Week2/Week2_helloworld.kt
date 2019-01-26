@@ -1,3 +1,5 @@
+package Week2
+
 /**
  * Things learnt in simple hello world program.
  *
@@ -16,7 +18,7 @@ fun main(args:Array<String>){
     doSomething(13)
 
     //if is an expression
-    val result = if (callingfunctionInStringTemplates()>12) "hello" else "world"
+    val result = if (callingfunctionInStringTemplates() >12) "hello" else "world"
     println("The result is $result")
 }
 

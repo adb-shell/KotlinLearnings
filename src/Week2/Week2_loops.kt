@@ -1,3 +1,5 @@
+package Week2
+
 /**
  * Things learnt in loops.
  * 1. for, while and do while.

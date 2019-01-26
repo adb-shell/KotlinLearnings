@@ -1,13 +1,13 @@
-
+package Assignment
 
 
 fun main(args:Array<String>){
-    val case1 = evaluateGuess("DCFC","ABEC")
-    val case2 = evaluateGuess("ABCD","CDBA")
-    val case3 = evaluateGuess("ABCD","ABDC")
-    val case4 = evaluateGuess("AABC","ADFE")
-    val case5 = evaluateGuess("AABC","DEAA")
-    val case6 = evaluateGuess("ACDC","DDDD")
+    val case1 = evaluateGuess("DCFC", "ABEC")
+    val case2 = evaluateGuess("ABCD", "CDBA")
+    val case3 = evaluateGuess("ABCD", "ABDC")
+    val case4 = evaluateGuess("AABC", "ADFE")
+    val case5 = evaluateGuess("AABC", "DEAA")
+    val case6 = evaluateGuess("ACDC", "DDDD")
 
     println("CASE1:")
     println("The right pos:${case1.rightPosition} " +
@@ -39,7 +39,7 @@ data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
 fun evaluateGuess(secret: String, guess: String): Evaluation {
     val secretArray = secret.toCharArray()
     val guessArray = guess.toCharArray()
-    return Evaluation(getRightPosition(secretArray, guessArray),getWrongPosition(secretArray, guessArray))
+    return Evaluation(getRightPosition(secretArray, guessArray), getWrongPosition(secretArray, guessArray))
 }
 
 private fun getWrongPosition(secretArray: CharArray, guessArray: CharArray): Int {

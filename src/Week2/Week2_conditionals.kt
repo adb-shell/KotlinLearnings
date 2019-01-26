@@ -1,4 +1,4 @@
-
+package Week2
 /**
  * Things learnt in conditionals.
  * 1.when expression with and without arguments(you can use it with boolean case).

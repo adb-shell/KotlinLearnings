@@ -1,9 +1,9 @@
-
+package Week2
 
 /**
  * Things learnt in functions.
- * 1.Convert function to function with expression expressionBody
- * 2.Omit return types expression expressionBody func if it is private.
+ * 1.Convert function to function with expression Week2.expressionBody
+ * 2.Omit return types expression Week2.expressionBody func if it is private.
  * 3.By default func returns Unit(if return type not specified.)
  * (equivalent to void in java)
  * 4.Functions everywhere(top-level,member and also local)
@@ -27,10 +27,10 @@ fun main(array: Array<String>){
     //default args
     repeatOpeartor()
     repeatOpeartor(5)
-    repeatOpeartor(2,"sample")
+    repeatOpeartor(2, "sample")
 
     //changing the order of args using named args
-    repeatOpeartor(printingstring = "hello",times = 2)
+    repeatOpeartor(printingstring = "hello", times = 2)
 }
 
 fun mainExpBody(exp:Int):Boolean = exp>10
