@@ -6,6 +6,7 @@
  * 2.You will not be able to access the private member even though extension.
  * 3.You can omit this in extension func.
  * 4.`Infix` functions for which we can omit parenthisis.
+ * 5.member vs extension function `member` always wins.
  **/
 
 
