@@ -13,14 +13,14 @@ package Week4
  *2.internal    -----------visible in module--------
  *3.protected   subclass only  ----------------------
  *4.private     class only     file only.
- *
- *3.primary constructor(next to name of class) vs secondary construtor in kotlin
+ *3.primary constructor(next to name of class) vs secondary constructor in kotlin
  *4.init { } represents constructors body.
  *5.secondary constructor must call primary constructor.
  *6.enum class same enum in java can have constructor and members.
  *7.data class equals(),toString() hashCode() and copy methods are generated under the hood.
- * normal classes check for reference equality (=== can be used for ref).
- *8.
+ *  normal classes check for reference equality (=== can be used for ref).
+ *8.sealed prevents from extending, however you can have subclasses in same file.
+ *9.inner key word inner classes.
  */
 fun main(args:Array<String>){
     val a = A("h1")
@@ -47,4 +47,13 @@ enum class Color(val r:Int,val g:Int,val b:Int){
     BLUE(0,1,2),RED(0,1,1),GREEN(0,1,3);
 
     fun getRGB():Int = r+g*b
+}
+
+class B{
+    val f:Int=0
+    inner class C{
+        fun doSomething(){
+            println(this@B.f)
+        }
+    }
 }
