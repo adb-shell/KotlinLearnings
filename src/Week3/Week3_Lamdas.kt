@@ -10,6 +10,8 @@ package Week3
  * 4.If there is only one lamda arg you can omit it
  * and refer it using `it`
  * 5.Learn the library and try to reuse if possible
+ * 6.destructing syntax for lambdas, when more than one params.
+ * {(key,value)-> "$key is $value"}
  */
 fun main(args:Array<String>){
     mutableListOf(1,2,3,4,5,6,7,8,9,0)

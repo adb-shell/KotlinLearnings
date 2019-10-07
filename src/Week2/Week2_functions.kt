@@ -16,10 +16,11 @@ package Week2
  * 9.Top level functions in kotlin, are called in Java as though they are static
  * functions.
  * 10.check JointoString() func for more info's.
+ * 11.All top level functions are static functions from java.
  **/
 
 
-fun main(array: Array<String>){
+fun main(){
     print("The value is ${mainExpBody(12)}")
     expressionBody()
     localFunctionExample()
